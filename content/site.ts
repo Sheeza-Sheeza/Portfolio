@@ -4,7 +4,7 @@ export const siteConfig = {
   tagline: "Building production ML systems from data to deployment",
   experience: "1+ years",
   email: "sheezarafique266@gmail.com",
-  url: "https://sheeza-rafique.vercel.app",
+  url: "https://portfolio-wheat-phi-46gzbflg0m.vercel.app",
   bio: "AI Engineer with 1+ years of hands-on experience building end-to-end machine learning systems. Specializes in taking models from experimentation to production — designing reproducible DVC/MLflow pipelines, deploying containerized inference APIs on AWS, and building monitoring-ready ML services.",
   interests: [
     "Machine Learning",
