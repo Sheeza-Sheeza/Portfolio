@@ -12,9 +12,10 @@ type ProjectCardProps = {
   project: Project;
   index?: number;
   className?: string;
+  showFeaturedBadge?: boolean;
 };
 
-export function ProjectCard({ project, index = 0, className }: ProjectCardProps) {
+export function ProjectCard({ project, index = 0, className, showFeaturedBadge = false }: ProjectCardProps) {
   const shouldReduceMotion = useReducedMotion();
 
   return (
@@ -29,7 +30,7 @@ export function ProjectCard({ project, index = 0, className }: ProjectCardProps)
         className,
       )}
     >
-      {project.featured && index === 0 && (
+      {showFeaturedBadge && (
         <span className="absolute right-4 top-4 rounded-full bg-gradient-to-r from-cyan-500/20 to-violet-500/20 px-3 py-1 font-mono text-xs text-accent">
           Featured
         </span>

@@ -1,4 +1,5 @@
 import {
+  Bot,
   Brain,
   Cloud,
   Code2,
@@ -17,6 +18,20 @@ export type SkillCategory = {
 };
 
 export const skillCategories: SkillCategory[] = [
+  {
+    title: "AI / LLMs",
+    icon: Bot,
+    skills: [
+      "OpenAI API",
+      "RAG",
+      "Vector Stores",
+      "LangChain",
+      "LangGraph",
+      "MCP",
+      "Google Gemini",
+      "WebSockets",
+    ],
+  },
   {
     title: "ML / NLP",
     icon: Brain,

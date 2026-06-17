@@ -10,8 +10,8 @@ export function About() {
         <FadeIn>
           <SectionHeading
             eyebrow="About"
-            title="Engineering ML systems that ship"
-            description="From experiment tracking to production deployment — I build the full stack around machine learning."
+            title="Building AI systems that ship"
+            description="From RAG chatbots and LLM agents to production MLOps pipelines — I build the full stack around AI and machine learning."
           />
         </FadeIn>
 
@@ -20,10 +20,10 @@ export function About() {
             <div className="lg:col-span-3">
               <p className="text-lg leading-relaxed text-muted">{siteConfig.bio}</p>
               <p className="mt-4 text-lg leading-relaxed text-muted">
-                My work spans NLP sentiment analysis, classification pipelines,
-                and cloud-native MLOps — with hands-on experience in AWS, Docker,
-                DVC, MLflow, and CI/CD automation. I am actively exploring LLMs,
-                RAG architectures, and scalable backend systems.
+                My work spans RAG-powered recruiter chatbots, MCP agent orchestration,
+                Gemini Live voice AI, NLP sentiment analysis, and cloud-native MLOps —
+                with hands-on experience in OpenAI, LangGraph, AWS, Docker, DVC,
+                MLflow, and CI/CD automation.
               </p>
             </div>
 
@@ -49,7 +49,7 @@ export function About() {
                 {siteConfig.experience}
               </p>
               <p className="mt-1 text-sm text-muted">
-                Building production ML pipelines and cloud deployments
+                Building AI applications and production ML pipelines
               </p>
             </div>
           </div>

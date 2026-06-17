@@ -5,7 +5,7 @@ export const siteConfig = {
   experience: "1+ years",
   email: "sheezarafique266@gmail.com",
   url: "https://portfolio-wheat-phi-46gzbflg0m.vercel.app",
-  bio: "AI Engineer with 1+ years of hands-on experience building end-to-end machine learning systems. Specializes in taking models from experimentation to production — designing reproducible DVC/MLflow pipelines, deploying containerized inference APIs on AWS, and building monitoring-ready ML services.",
+  bio: "AI Engineer with 1+ years of hands-on experience building LLM-powered applications and production machine learning systems. Builds RAG chatbots, MCP agent systems, and real-time voice AI alongside reproducible MLOps pipelines — deploying containerized inference APIs on AWS with full CI/CD automation.",
   interests: [
     "Machine Learning",
     "Deep Learning",
