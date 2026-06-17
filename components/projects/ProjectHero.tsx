@@ -1,9 +1,10 @@
 import Link from "next/link";
-import { ArrowLeft, ExternalLink, Github } from "lucide-react";
+import { ArrowLeft, ExternalLink } from "lucide-react";
 import type { Project } from "@/content/projects";
 import { TechBadge } from "@/components/projects/TechBadge";
 import { Button } from "@/components/ui/Button";
 import { Container } from "@/components/ui/Container";
+import { GitHubIcon } from "@/components/ui/SocialIcons";
 
 type ProjectHeroProps = {
   project: Project;
@@ -46,7 +47,7 @@ export function ProjectHero({ project }: ProjectHeroProps) {
       <div className="mt-8 flex flex-wrap gap-3">
         {project.links.github && (
           <Button href={project.links.github} external variant="secondary">
-            <Github className="h-4 w-4" />
+            <GitHubIcon className="h-4 w-4" />
             View on GitHub
           </Button>
         )}

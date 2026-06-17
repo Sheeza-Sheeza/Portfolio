@@ -2,9 +2,10 @@
 
 import { motion, useReducedMotion } from "framer-motion";
 import Link from "next/link";
-import { ArrowUpRight, Github, ExternalLink } from "lucide-react";
+import { ArrowUpRight, ExternalLink } from "lucide-react";
 import type { Project } from "@/content/projects";
 import { TechBadge } from "@/components/projects/TechBadge";
+import { GitHubIcon } from "@/components/ui/SocialIcons";
 import { cn } from "@/lib/utils";
 
 type ProjectCardProps = {
@@ -86,7 +87,7 @@ export function ProjectCard({ project, index = 0, className }: ProjectCardProps)
               className="rounded-full p-2 text-muted transition-colors hover:bg-white/5 hover:text-accent focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-cyan-400"
               aria-label={`View ${project.title} on GitHub`}
             >
-              <Github className="h-4 w-4" />
+              <GitHubIcon className="h-4 w-4" />
             </a>
           )}
           {project.links.demo && (

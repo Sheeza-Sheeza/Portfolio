@@ -70,7 +70,7 @@ portfolio/
 
 Edit [`content/site.ts`](content/site.ts) to update:
 
-- LinkedIn profile URL (placeholder: `https://linkedin.com/in/sheeza-rafique`)
+- LinkedIn profile URL in [`content/site.ts`](content/site.ts)
 - Email, GitHub, DagsHub links
 
 ### Add a project

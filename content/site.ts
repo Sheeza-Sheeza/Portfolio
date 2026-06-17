@@ -17,7 +17,7 @@ export const siteConfig = {
   ],
   social: {
     github: "https://github.com/Sheeza-Sheeza",
-    linkedin: "https://linkedin.com/in/sheeza-rafique",
+    linkedin: "https://linkedin.com/in/sheezarafique672010238",
     dagshub: "https://dagshub.com/sheezarafique266",
     email: "mailto:sheezaarafique266@gmail.com",
   },

@@ -1,9 +1,10 @@
-import { Github, Linkedin, Mail } from "lucide-react";
+import { Mail } from "lucide-react";
 import { siteConfig } from "@/content/site";
 import { Button } from "@/components/ui/Button";
 import { Container } from "@/components/ui/Container";
 import { FadeIn } from "@/components/ui/FadeIn";
 import { SectionHeading } from "@/components/ui/SectionHeading";
+import { GitHubIcon, LinkedInIcon } from "@/components/ui/SocialIcons";
 
 export function Contact() {
   return (
@@ -30,7 +31,7 @@ export function Contact() {
                 variant="secondary"
                 size="lg"
               >
-                <Github className="h-5 w-5" />
+                <GitHubIcon className="h-5 w-5" />
                 GitHub
               </Button>
               <Button
@@ -39,7 +40,7 @@ export function Contact() {
                 variant="secondary"
                 size="lg"
               >
-                <Linkedin className="h-5 w-5" />
+                <LinkedInIcon className="h-5 w-5" />
                 LinkedIn
               </Button>
             </div>

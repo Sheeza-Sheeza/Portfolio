@@ -1,6 +1,7 @@
-import { Github, Linkedin, Mail } from "lucide-react";
+import { Mail } from "lucide-react";
 import { siteConfig } from "@/content/site";
 import { Container } from "@/components/ui/Container";
+import { GitHubIcon, LinkedInIcon } from "@/components/ui/SocialIcons";
 
 export function Footer() {
   const year = new Date().getFullYear();
@@ -25,7 +26,7 @@ export function Footer() {
             className="rounded-full p-2 text-muted transition-colors hover:bg-white/5 hover:text-accent focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-cyan-400"
             aria-label="GitHub profile"
           >
-            <Github className="h-5 w-5" />
+            <GitHubIcon className="h-5 w-5" />
           </a>
           <a
             href={siteConfig.social.linkedin}
@@ -34,7 +35,7 @@ export function Footer() {
             className="rounded-full p-2 text-muted transition-colors hover:bg-white/5 hover:text-accent focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-cyan-400"
             aria-label="LinkedIn profile"
           >
-            <Linkedin className="h-5 w-5" />
+            <LinkedInIcon className="h-5 w-5" />
           </a>
           <a
             href={siteConfig.social.email}
