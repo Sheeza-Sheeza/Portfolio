@@ -1,0 +1,30 @@
+export const siteConfig = {
+  name: "Sheeza Rafique",
+  role: "AI Engineer",
+  tagline: "Building production ML systems from data to deployment",
+  experience: "1+ years",
+  email: "sheezarafique266@gmail.com",
+  url: "https://sheeza-rafique.vercel.app",
+  bio: "AI Engineer with 1+ years of hands-on experience building end-to-end machine learning systems. Specializes in taking models from experimentation to production — designing reproducible DVC/MLflow pipelines, deploying containerized inference APIs on AWS, and building monitoring-ready ML services.",
+  interests: [
+    "Machine Learning",
+    "Deep Learning",
+    "LLMs",
+    "RAG",
+    "MLOps",
+    "Cloud",
+    "Backend Development",
+  ],
+  social: {
+    github: "https://github.com/Sheeza-Sheeza",
+    linkedin: "https://linkedin.com/in/sheeza-rafique",
+    dagshub: "https://dagshub.com/sheezarafique266",
+    email: "mailto:sheezaarafique266@gmail.com",
+  },
+  nav: [
+    { label: "About", href: "#about" },
+    { label: "Skills", href: "#skills" },
+    { label: "Projects", href: "#projects" },
+    { label: "Contact", href: "#contact" },
+  ],
+} as const;
